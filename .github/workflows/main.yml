@@ -1,9 +1,9 @@
 name: Price Tracker Automation
 
 on:
-  schedule:
+  #schedule:
     # Runs at 12pm, 4pm, 8pm, and 12am Riyadh Time
-    - cron: '0 9,13,17,21 * * *'
+    # - cron: '0 9,13,17,21 * * *'
   workflow_dispatch:
 
 jobs:
